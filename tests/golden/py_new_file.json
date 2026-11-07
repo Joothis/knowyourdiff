@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "total_hunks": 1,
+  "hunks": [
+    {
+      "rank": 1,
+      "id": "pagination.py:1",
+      "path": "pagination.py",
+      "old_path": null,
+      "language": "python",
+      "target_start": 1,
+      "target_length": 9,
+      "added": 9,
+      "removed": 0,
+      "new_file": true,
+      "deleted_file": false,
+      "score": 10.0,
+      "signals": {
+        "error_handling": 3.0,
+        "boundaries": 3.0,
+        "control_flow": 1.0,
+        "size": 3.0
+      },
+      "reasons": [
+        "adds error handling",
+        "adds boundaries and indexing",
+        "adds branching and loops"
+      ],
+      "context_supported": true,
+      "enclosing": null,
+      "touched": [
+        {
+          "kind": "function",
+          "name": "paginate",
+          "start": 1,
+          "end": 3
+        },
+        {
+          "kind": "function",
+          "name": "page_count",
+          "start": 6,
+          "end": 9
+        }
+      ],
+      "symbols": [
+        "paginate",
+        "items",
+        "page",
+        "per_page",
+        "start",
+        "page_count",
+        "ValueError",
+        "len"
+      ]
+    }
+  ]
+}

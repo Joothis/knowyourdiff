@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "total_hunks": 1,
+  "hunks": [
+    {
+      "rank": 1,
+      "id": "billing.py:2",
+      "path": "billing.py",
+      "old_path": null,
+      "language": "python",
+      "target_start": 2,
+      "target_length": 9,
+      "added": 3,
+      "removed": 1,
+      "new_file": false,
+      "deleted_file": false,
+      "score": 6.32,
+      "signals": {
+        "error_handling": 3.0,
+        "control_flow": 1.0,
+        "size": 2.32
+      },
+      "reasons": [
+        "adds error handling",
+        "adds branching and loops"
+      ],
+      "context_supported": true,
+      "enclosing": {
+        "kind": "function",
+        "name": "invoice",
+        "start": 1,
+        "end": 11
+      },
+      "touched": [
+        {
+          "kind": "function",
+          "name": "invoice",
+          "start": 1,
+          "end": 11
+        }
+      ],
+      "symbols": [
+        "subtotal",
+        "order",
+        "customer",
+        "credit",
+        "ValueError"
+      ]
+    }
+  ]
+}

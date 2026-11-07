@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "total_hunks": 1,
+  "hunks": [
+    {
+      "rank": 1,
+      "id": "new_name.py:10",
+      "path": "new_name.py",
+      "old_path": "old_name.py",
+      "language": "python",
+      "target_start": 10,
+      "target_length": 2,
+      "added": 2,
+      "removed": 0,
+      "new_file": false,
+      "deleted_file": false,
+      "score": 2.58,
+      "signals": {
+        "control_flow": 1.0,
+        "size": 1.58
+      },
+      "reasons": [
+        "adds branching and loops"
+      ],
+      "context_supported": true,
+      "enclosing": {
+        "kind": "function",
+        "name": "farewell",
+        "start": 9,
+        "end": 12
+      },
+      "touched": [
+        {
+          "kind": "function",
+          "name": "farewell",
+          "start": 9,
+          "end": 12
+        }
+      ],
+      "symbols": [
+        "name"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "total_hunks": 1,
+  "hunks": [
+    {
+      "rank": 1,
+      "id": "legacy.py:0",
+      "path": "legacy.py",
+      "old_path": null,
+      "language": "python",
+      "target_start": 0,
+      "target_length": 0,
+      "added": 0,
+      "removed": 5,
+      "new_file": false,
+      "deleted_file": true,
+      "score": 4.97,
+      "signals": {
+        "security": 8.0,
+        "error_handling": 6.0,
+        "size": 2.58
+      },
+      "reasons": [
+        "removes security-sensitive code",
+        "removes error handling",
+        "file deleted"
+      ],
+      "context_supported": false,
+      "enclosing": null,
+      "touched": [],
+      "symbols": []
+    }
+  ]
+}

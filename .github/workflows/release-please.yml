@@ -1,0 +1,25 @@
+# Opens and maintains a release PR from Conventional Commits.
+# Publishing to PyPI and the MCP Registry is added in Phase 7 (see docs/PLAN.md),
+# in this same workflow, because releases made with GITHUB_TOKEN do not trigger other workflows.
+name: release-please
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    outputs:
+      release_created: ${{ steps.rp.outputs.release_created }}
+    steps:
+      - uses: googleapis/release-please-action@v4
+        id: rp
+        with:
+          config-file: release-please-config.json
+          manifest-file: .release-please-manifest.json

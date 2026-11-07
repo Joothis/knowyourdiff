@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "total_hunks": 2,
+  "hunks": [
+    {
+      "rank": 1,
+      "id": "Badge.tsx:3",
+      "path": "Badge.tsx",
+      "old_path": null,
+      "language": "tsx",
+      "target_start": 3,
+      "target_length": 6,
+      "added": 6,
+      "removed": 2,
+      "new_file": false,
+      "deleted_file": false,
+      "score": 5.5,
+      "signals": {
+        "boundaries": 1.5,
+        "control_flow": 1.0,
+        "size": 3.0
+      },
+      "reasons": [
+        "adds boundaries and indexing",
+        "adds branching and loops"
+      ],
+      "context_supported": true,
+      "enclosing": {
+        "kind": "function",
+        "name": "Badge",
+        "start": 3,
+        "end": 9
+      },
+      "touched": [
+        {
+          "kind": "function",
+          "name": "Badge",
+          "start": 3,
+          "end": 9
+        }
+      ],
+      "symbols": [
+        "Badge",
+        "Props",
+        "count",
+        "label",
+        "max",
+        "String",
+        "span",
+        "className",
+        "badge"
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "Badge.tsx:1",
+      "path": "Badge.tsx",
+      "old_path": null,
+      "language": "tsx",
+      "target_start": 1,
+      "target_length": 1,
+      "added": 1,
+      "removed": 1,
+      "new_file": false,
+      "deleted_file": false,
+      "score": 1.58,
+      "signals": {
+        "size": 1.58
+      },
+      "reasons": [],
+      "context_supported": true,
+      "enclosing": null,
+      "touched": [],
+      "symbols": [
+        "Props",
+        "count",
+        "max",
+        "number"
+      ]
+    }
+  ]
+}

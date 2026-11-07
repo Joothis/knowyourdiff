@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "total_hunks": 2,
+  "hunks": [
+    {
+      "rank": 1,
+      "id": "client.py:6",
+      "path": "client.py",
+      "old_path": null,
+      "language": "python",
+      "target_start": 6,
+      "target_length": 12,
+      "added": 12,
+      "removed": 3,
+      "new_file": false,
+      "deleted_file": false,
+      "score": 24.5,
+      "signals": {
+        "error_handling": 9.0,
+        "resilience": 6.0,
+        "io_network": 2.0,
+        "boundaries": 1.5,
+        "control_flow": 2.0,
+        "size": 4.0
+      },
+      "reasons": [
+        "adds error handling",
+        "adds retries, timeouts or caching",
+        "adds file or network I/O",
+        "adds branching and loops",
+        "adds boundaries and indexing"
+      ],
+      "context_supported": true,
+      "enclosing": {
+        "kind": "function",
+        "name": "fetch_user",
+        "start": 6,
+        "end": 17
+      },
+      "touched": [
+        {
+          "kind": "function",
+          "name": "fetch_user",
+          "start": 6,
+          "end": 17
+        }
+      ],
+      "symbols": [
+        "fetch_user",
+        "session",
+        "user_id",
+        "max_retries",
+        "retry_count",
+        "response",
+        "get",
+        "timeout",
+        "raise_for_status",
+        "json",
+        "requests",
+        "Timeout",
+        "time",
+        "sleep",
+        "users"
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "client.py:1",
+      "path": "client.py",
+      "old_path": null,
+      "language": "python",
+      "target_start": 1,
+      "target_length": 2,
+      "added": 2,
+      "removed": 0,
+      "new_file": false,
+      "deleted_file": false,
+      "score": 0.0,
+      "signals": {},
+      "reasons": [
+        "only comments, imports or blank lines"
+      ],
+      "context_supported": true,
+      "enclosing": null,
+      "touched": [],
+      "symbols": [
+        "time"
+      ]
+    }
+  ]
+}

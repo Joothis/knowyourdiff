@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "total_hunks": 4,
+  "hunks": [
+    {
+      "rank": 1,
+      "id": "app.py:2",
+      "path": "app.py",
+      "old_path": null,
+      "language": "python",
+      "target_start": 2,
+      "target_length": 4,
+      "added": 4,
+      "removed": 1,
+      "new_file": false,
+      "deleted_file": false,
+      "score": 8.58,
+      "signals": {
+        "error_handling": 6.0,
+        "size": 2.58
+      },
+      "reasons": [
+        "adds error handling"
+      ],
+      "context_supported": true,
+      "enclosing": {
+        "kind": "function",
+        "name": "handler",
+        "start": 1,
+        "end": 5
+      },
+      "touched": [
+        {
+          "kind": "function",
+          "name": "handler",
+          "start": 1,
+          "end": 5
+        }
+      ],
+      "symbols": [
+        "request",
+        "user",
+        "id",
+        "AttributeError",
+        "ok"
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "tests/test_app.py:3",
+      "path": "tests/test_app.py",
+      "old_path": null,
+      "language": "python",
+      "target_start": 3,
+      "target_length": 7,
+      "added": 7,
+      "removed": 0,
+      "new_file": false,
+      "deleted_file": false,
+      "score": 7.55,
+      "signals": {
+        "error_handling": 6.0,
+        "resilience": 4.0,
+        "size": 2.58
+      },
+      "reasons": [
+        "adds error handling",
+        "adds retries, timeouts or caching",
+        "test code"
+      ],
+      "context_supported": true,
+      "enclosing": null,
+      "touched": [
+        {
+          "kind": "function",
+          "name": "test_timeout_retries",
+          "start": 5,
+          "end": 9
+        }
+      ],
+      "symbols": [
+        "test_timeout_retries",
+        "call",
+        "TimeoutError"
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "README.md:3",
+      "path": "README.md",
+      "old_path": null,
+      "language": null,
+      "target_start": 3,
+      "target_length": 1,
+      "added": 1,
+      "removed": 1,
+      "new_file": false,
+      "deleted_file": false,
+      "score": 0.72,
+      "signals": {
+        "resilience": 2.0,
+        "size": 1.58
+      },
+      "reasons": [
+        "adds retries, timeouts or caching",
+        "documentation"
+      ],
+      "context_supported": false,
+      "enclosing": null,
+      "touched": [],
+      "symbols": []
+    },
+    {
+      "rank": 4,
+      "id": "package-lock.json:3",
+      "path": "package-lock.json",
+      "old_path": null,
+      "language": null,
+      "target_start": 3,
+      "target_length": 1,
+      "added": 1,
+      "removed": 0,
+      "new_file": false,
+      "deleted_file": false,
+      "score": 0.05,
+      "signals": {
+        "size": 1.0
+      },
+      "reasons": [
+        "generated or lock file"
+      ],
+      "context_supported": false,
+      "enclosing": null,
+      "touched": [],
+      "symbols": []
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "total_hunks": 2,
+  "hunks": [
+    {
+      "rank": 1,
+      "id": "deploy.py:6",
+      "path": "deploy.py",
+      "old_path": null,
+      "language": "python",
+      "target_start": 6,
+      "target_length": 1,
+      "added": 1,
+      "removed": 0,
+      "new_file": false,
+      "deleted_file": false,
+      "score": 5.0,
+      "signals": {
+        "security": 4.0,
+        "size": 1.0
+      },
+      "reasons": [
+        "adds security-sensitive code"
+      ],
+      "context_supported": true,
+      "enclosing": {
+        "kind": "function",
+        "name": "deploy",
+        "start": 4,
+        "end": 6
+      },
+      "touched": [
+        {
+          "kind": "function",
+          "name": "deploy",
+          "start": 4,
+          "end": 6
+        }
+      ],
+      "symbols": [
+        "subprocess",
+        "run",
+        "branch",
+        "shell",
+        "check"
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "deploy.py:1",
+      "path": "deploy.py",
+      "old_path": null,
+      "language": "python",
+      "target_start": 1,
+      "target_length": 3,
+      "added": 3,
+      "removed": 0,
+      "new_file": false,
+      "deleted_file": false,
+      "score": 0.0,
+      "signals": {},
+      "reasons": [
+        "only comments, imports or blank lines"
+      ],
+      "context_supported": true,
+      "enclosing": null,
+      "touched": [],
+      "symbols": [
+        "subprocess"
+      ]
+    }
+  ]
+}

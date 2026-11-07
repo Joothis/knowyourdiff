@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "total_hunks": 1,
+  "hunks": [
+    {
+      "rank": 1,
+      "id": "api.js:2",
+      "path": "api.js",
+      "old_path": null,
+      "language": "javascript",
+      "target_start": 2,
+      "target_length": 10,
+      "added": 10,
+      "removed": 2,
+      "new_file": false,
+      "deleted_file": false,
+      "score": 20.96,
+      "signals": {
+        "error_handling": 9.0,
+        "concurrency": 4.5,
+        "io_network": 3.0,
+        "control_flow": 1.0,
+        "size": 3.46
+      },
+      "reasons": [
+        "adds error handling",
+        "changes concurrency",
+        "changes file or network I/O",
+        "adds branching and loops"
+      ],
+      "context_supported": true,
+      "enclosing": {
+        "kind": "function",
+        "name": "loadUser",
+        "start": 1,
+        "end": 12
+      },
+      "touched": [
+        {
+          "kind": "function",
+          "name": "loadUser",
+          "start": 1,
+          "end": 12
+        }
+      ],
+      "symbols": [
+        "res",
+        "fetch",
+        "id",
+        "ok",
+        "Error",
+        "status",
+        "json",
+        "err",
+        "console",
+        "error",
+        "api",
+        "users"
+      ]
+    }
+  ]
+}

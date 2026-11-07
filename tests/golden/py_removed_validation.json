@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "total_hunks": 1,
+  "hunks": [
+    {
+      "rank": 1,
+      "id": "accounts.py:1",
+      "path": "accounts.py",
+      "old_path": null,
+      "language": "python",
+      "target_start": 1,
+      "target_length": 0,
+      "added": 0,
+      "removed": 2,
+      "new_file": false,
+      "deleted_file": false,
+      "score": 9.08,
+      "signals": {
+        "security": 4.0,
+        "error_handling": 3.0,
+        "control_flow": 0.5,
+        "size": 1.58
+      },
+      "reasons": [
+        "removes security-sensitive code",
+        "removes error handling",
+        "removes branching and loops"
+      ],
+      "context_supported": true,
+      "enclosing": {
+        "kind": "function",
+        "name": "delete_account",
+        "start": 1,
+        "end": 3
+      },
+      "touched": [
+        {
+          "kind": "function",
+          "name": "delete_account",
+          "start": 1,
+          "end": 3
+        }
+      ],
+      "symbols": [
+        "delete_account",
+        "user",
+        "account",
+        "is_admin",
+        "PermissionError",
+        "admins",
+        "only"
+      ]
+    }
+  ]
+}

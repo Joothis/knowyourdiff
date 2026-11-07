@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "total_hunks": 3,
+  "hunks": [
+    {
+      "rank": 1,
+      "id": "counter.py:7",
+      "path": "counter.py",
+      "old_path": null,
+      "language": "python",
+      "target_start": 7,
+      "target_length": 1,
+      "added": 1,
+      "removed": 0,
+      "new_file": false,
+      "deleted_file": false,
+      "score": 5.5,
+      "signals": {
+        "concurrency": 3.0,
+        "state": 1.5,
+        "size": 1.0
+      },
+      "reasons": [
+        "adds concurrency",
+        "adds shared or object state"
+      ],
+      "context_supported": true,
+      "enclosing": {
+        "kind": "method",
+        "name": "__init__",
+        "start": 5,
+        "end": 7
+      },
+      "touched": [
+        {
+          "kind": "class",
+          "name": "Counter",
+          "start": 4,
+          "end": 12
+        },
+        {
+          "kind": "method",
+          "name": "__init__",
+          "start": 5,
+          "end": 7
+        }
+      ],
+      "symbols": [
+        "_lock",
+        "threading",
+        "Lock"
+      ]
+    },
+    {
+      "rank": 2,
+      "id": "counter.py:10",
+      "path": "counter.py",
+      "old_path": null,
+      "language": "python",
+      "target_start": 10,
+      "target_length": 3,
+      "added": 3,
+      "removed": 2,
+      "new_file": false,
+      "deleted_file": false,
+      "score": 4.83,
+      "signals": {
+        "state": 2.25,
+        "size": 2.58
+      },
+      "reasons": [
+        "changes shared or object state"
+      ],
+      "context_supported": true,
+      "enclosing": {
+        "kind": "method",
+        "name": "increment",
+        "start": 9,
+        "end": 12
+      },
+      "touched": [
+        {
+          "kind": "class",
+          "name": "Counter",
+          "start": 4,
+          "end": 12
+        },
+        {
+          "kind": "method",
+          "name": "increment",
+          "start": 9,
+          "end": 12
+        }
+      ],
+      "symbols": [
+        "_lock",
+        "value"
+      ]
+    },
+    {
+      "rank": 3,
+      "id": "counter.py:1",
+      "path": "counter.py",
+      "old_path": null,
+      "language": "python",
+      "target_start": 1,
+      "target_length": 3,
+      "added": 3,
+      "removed": 0,
+      "new_file": false,
+      "deleted_file": false,
+      "score": 0.0,
+      "signals": {},
+      "reasons": [
+        "only comments, imports or blank lines"
+      ],
+      "context_supported": true,
+      "enclosing": null,
+      "touched": [],
+      "symbols": [
+        "threading"
+      ]
+    }
+  ]
+}

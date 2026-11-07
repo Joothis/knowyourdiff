@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "total_hunks": 1,
+  "hunks": [
+    {
+      "rank": 1,
+      "id": "service.py:10",
+      "path": "service.py",
+      "old_path": null,
+      "language": "python",
+      "target_start": 10,
+      "target_length": 3,
+      "added": 3,
+      "removed": 1,
+      "new_file": false,
+      "deleted_file": false,
+      "score": 3.32,
+      "signals": {
+        "control_flow": 1.0,
+        "size": 2.32
+      },
+      "reasons": [
+        "adds branching and loops"
+      ],
+      "context_supported": true,
+      "enclosing": {
+        "kind": "method",
+        "name": "convert",
+        "start": 8,
+        "end": 12
+      },
+      "touched": [
+        {
+          "kind": "class",
+          "name": "PriceService",
+          "start": 4,
+          "end": 12
+        },
+        {
+          "kind": "method",
+          "name": "convert",
+          "start": 8,
+          "end": 12
+        }
+      ],
+      "symbols": [
+        "currency",
+        "rates",
+        "round",
+        "amount"
+      ]
+    }
+  ]
+}
